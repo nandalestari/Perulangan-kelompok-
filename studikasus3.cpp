@@ -79,21 +79,21 @@ int main(){
 				if (bayar> 25000){
 					cout << " Diskon Ongkir: 3000\n";
 					ongkir = 15000-3000;
-					x = ongkir;
+					x = bayar + ongkir;
 					cout << " Total : " << x << endl;
 				}
 				else if (bayar > 50000){
 					cout << " Diskon Ongkir: 5000 + 15% Pembelian\n";
 					ongkir = 15000-5000;
 					diskon = bayar*15/100;
-					x = ongkir - diskon;
+					x = bayar + ongkir - diskon;
 					cout << " Total : " << x << endl;
 				}
 				else if (bayar > 150000){
 					cout << " Diskon Ongkir: 8000 + 15% Pembelian\n";
 					ongkir = 15000-8000;
 					diskon = bayar*15/100;
-					x = ongkir - diskon;
+					x = bayar + ongkir - diskon;
 					cout << " Total : " << x << endl;
 				}
 			}
@@ -102,21 +102,21 @@ int main(){
 				if (bayar > 25000){
 					cout << " Diskon Ongkir: 3000\n";
 					ongkir = 25000-3000;
-					x = ongkir;
+					x = bayar + ongkir;
 					cout << " Total : " << x << endl;
 				}
 				else if (bayar > 50000){
 					cout << " Diskon Ongkir: 5000 + 15% Pembelian\n";
 					ongkir = 25000-5000;
 					diskon = bayar*15/100;
-					x = ongkir - diskon;
+					x = bayar + ongkir - diskon;
 					cout << " Total : " << x << endl;
 				}
 				else if (bayar > 150000){
 					cout << " Diskon Ongkir: 8000 + 15% Pembelian\n";
 					ongkir = 15000-8000;
 					diskon = bayar*15/100;
-					x = ongkir - diskon;
+					x = bayar +  ongkir - diskon;
 					cout << " Total : " << x << endl;
 				}
 			}
