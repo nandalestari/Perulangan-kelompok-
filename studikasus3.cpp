@@ -25,7 +25,7 @@ int main(){
 				cout << " Harga : Rp 21000\n";
 				cout << " Jumlah pesanan: ";
 				cin >> jumlah;
-				total1 = 21000;
+				total1 = jumlah*21000;
 				cout << " total : " << total1;
 			}
 			else if(menu == 2){
@@ -33,7 +33,7 @@ int main(){
 				cout << " Harga : Rp 17000\n";
 				cout << " Jumlah : ";
 				cin >> jumlah;
-				total1 = 17000;
+				total1 = jumlah*17000;
 				cout << " total : " << total1;
 			}
 			else if(menu == 3){
@@ -41,7 +41,7 @@ int main(){
 				cout << " Harga : Rp 19000\n";
 				cout << " Jumlah : ";
 				cin >> jumlah;
-				total1 = 19000;
+				total1 = jumlah*19000;
 				cout << " total : " << total1;
 			}
 			else if(menu == 4){
@@ -49,7 +49,7 @@ int main(){
 				cout << " Harga : Rp 20000\n";
 				cout << " Jumlah : ";
 				cin >> jumlah;
-				total1 = 20000;
+				total1 =jumlah*20000;
 				cout << " total :" << total1;
 			}
 			else if(menu == 5){
@@ -57,7 +57,7 @@ int main(){
 				cout << " Harga : Rp 25000\n";
 				cout << " Jumlah : ";
 				cin >> jumlah;
-				total1 = 25000;
+				total1 = jumlah*25000;
 				cout << " total : " << total1;
 			}
 			    cout<<endl;
